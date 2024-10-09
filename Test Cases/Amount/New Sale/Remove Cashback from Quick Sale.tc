@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove Cashback from Quick Sale</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35d1ce04-d30d-4c32-b092-14adbfbe4085</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a Percentage-Based Tip to Quick Sale</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd6c5529-ba1d-40ff-a09d-d1801d8445aa</testCaseGuid>
+</TestCaseEntity>

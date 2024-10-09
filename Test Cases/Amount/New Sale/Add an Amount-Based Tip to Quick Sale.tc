@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add an Amount-Based Tip to Quick Sale</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffd84b18-0b64-48b6-8df8-bde4f6c72d1e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Customer to Quick Sale (Create New)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24eb107f-4999-4bf9-a5bc-2798e9d10d92</testCaseGuid>
+</TestCaseEntity>
