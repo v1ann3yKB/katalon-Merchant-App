@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Preconditions
+The user is on the Stock tab in the Management workspace
+The user has at least one saved product
+
+Step 1
+Tap on Record Stock
+
+Result
+The New Stock Take information page is opened
+
+Step 2
+Tap on Start Stock Take
+
+Result
+Stock Take page displays allowing you to add your products
+
+Step 3
+Tap on Add Your Products
+
+Result
+1. The Select Product page is opened
+2. The products saved in the business are listed
+
+Step 4
+Tap on a product
+
+Result
+The stock level page for the product is opened
+
+Step 5
+Increase the stock level
+
+Result
+1. A message is displayed below the quantity counter: &quot;You are adding X item(s)&quot;
+2. The reason dropdown is displayed
+
+Step 6
+Select a reason:
+	Stock Adjustment
+	Returned Stock
+
+Result
+The reason dropdown is updated
+
+Step 7
+Tap on Confirm​​​​
+
+Result
+1. The user is returned to the Stock Take screen
+2. The product is displayed with the stock change and reason
+
+Step 8
+Tap on Complete Stock Take
+
+Result
+1. The stock take is saved
+2. The user is returned to the Stock tab in the Management workspace</description>
+   <name>Record Stock (Increase)</name>
+   <tag>Record Stock (Increase)</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1aee643a-20d4-46e0-95d2-18297eb190ce</testCaseGuid>
+</TestCaseEntity>

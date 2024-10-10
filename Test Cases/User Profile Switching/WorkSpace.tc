@@ -4,5 +4,6 @@
    <name>WorkSpace</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8f12e586-9d16-4f7c-82e0-b3c053796597</testCaseGuid>
 </TestCaseEntity>

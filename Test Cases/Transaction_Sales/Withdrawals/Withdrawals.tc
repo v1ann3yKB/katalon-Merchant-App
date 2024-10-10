@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C-259 · Access withdrawals transactions
+
+Preconditions
+1. User has an active internet connection
+2. User has opened the transaction history
+
+Steps
+Tap on Withdrawals at the top of the page
+
+Result Expected 
+All withdrawal transactions are displayed</description>
+   <name>Withdrawals</name>
+   <tag>withdrawals</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86ca5e4f-28cf-4504-b601-a3fceef6d2a6</testCaseGuid>
+</TestCaseEntity>

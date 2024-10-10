@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open the New Product Attribute page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a0b774d-ee4c-473e-87fd-1ed61a4b63c6</testCaseGuid>
+</TestCaseEntity>

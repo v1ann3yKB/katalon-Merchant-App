@@ -4,5 +4,6 @@
    <name>User Profile Switching</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>39d8d2a2-37a7-42b4-b6b7-43cee26408b7</testCaseGuid>
 </TestCaseEntity>

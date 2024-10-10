@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Preconditions
+
+1. User has an active internet connection
+2. User has the necessary permissions
+3. User has opened the Store Settings page
+
+Steps
+
+Tap on Store Settings : The Store Settings page is opened
+
+Tap on Store Details : The Store Details page is opened</description>
+   <name>Open the Store Details page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c503ce47-f63d-4fe6-8a38-bbef15f84d8e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open Manage Suppliers Invoices</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f99cbd25-d7ef-4b80-ae89-899538ad5a14</testCaseGuid>
+</TestCaseEntity>

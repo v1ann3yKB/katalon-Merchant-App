@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add products to new category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>942f70f8-5efe-4c1a-9e42-faa07b57eb2c</testCaseGuid>
+</TestCaseEntity>

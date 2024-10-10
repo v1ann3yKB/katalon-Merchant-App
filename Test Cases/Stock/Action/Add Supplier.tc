@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Preconditions
+1. User has an active internet connection2. User has the relevant permissions</description>
+   <name>Add Supplier</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b92abe0-75a2-4e78-9285-07616a1acd2d</testCaseGuid>
+</TestCaseEntity>

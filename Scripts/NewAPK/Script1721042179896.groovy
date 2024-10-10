@@ -17,18 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/vb/Desktop/WorkFolder/littlefish_pos_ui/build/app/outputs/flutter-apk/app-lflfposdev-debug.apk', 
+//Mobile.startApplication('/Users/vb/Desktop/WorkFolder/littlefish_pos_ui/build/app/outputs/flutter-apk/app-lflfposdev-debug.apk', 
+//    true)
+//
+//Mobile.tap(findTestObject('NewAPK_Dev_Test/android.widget.Button'), 0)
+//
+//Mobile.closeApplication()
+//
+//Mobile.startApplication('/Users/vb/Desktop/WorkFolder/littlefish_pos_ui/build/app/outputs/flutter-apk/app-lflfposdev-debug.apk', 
+//    true)
+Mobile.startApplication('/Users/vb/Desktop/WorkFolder/littlefish_pos_ui/build/app/outputs/apk/lfLfposDev/debug/app-lf-lfpos-dev-debug.apk', 
     true)
 
-Mobile.tap(findTestObject('NewAPK_Dev_Test/android.widget.Button'), 0)
-
-Mobile.closeApplication()
-
-Mobile.startApplication('/Users/vb/Desktop/WorkFolder/littlefish_pos_ui/build/app/outputs/flutter-apk/app-lflfposdev-debug.apk', 
-    true)
+Mobile.tap(findTestObject('Orders/testing login/android.widget.Button'), 0)
 
 '2s Delay'
 Mobile.delay(3)
+
+Mobile.tap(findTestObject('Orders Obj/android.widget.EditText'), 2)
+
+Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.setText(findTestObject('NewAPK_Dev_Test/android.widget.EditText'), 'demo@littlefishapp.com', 0)
 
@@ -45,8 +53,10 @@ Mobile.tap(findTestObject('NewAPK_Dev_Test/android.widget.Button(LoginBtn)'), 0)
 '5s Delay'
 Mobile.delay(20)
 
+//Mobile.tap(findTestObject('Sell Now/Add Quick Item/android.widget.ImageView(QuickItem)'), 0)
+//Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 'Add Quick Item Button Tap'
-Mobile.tap(findTestObject('Sell Now/Add Quick Item/android.widget.ImageView(QuickItem)'), 0)
+Mobile.tap(findTestObject('Orders/testing login/android.widget.Button (1)'), 0)
 
 '10s Delay'
 Mobile.delay(5)
@@ -76,8 +86,7 @@ Mobile.tap(findTestObject('Sell Now/Add Quick Item/android.view.View(button0)'),
 Mobile.delay(3)
 
 'Setting description '
-Mobile.setText(findTestObject('Sell Now/Add Quick Item/android.widget.EditText - Description'), 'Food',
-	0)
+Mobile.setText(findTestObject('Sell Now/Add Quick Item/android.widget.EditText - Description'), 'Food', 0)
 
 '10s Delay'
 Mobile.delay(5)

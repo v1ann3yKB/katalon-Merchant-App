@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Past Stock Takes Items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23f1c8a1-fd43-4b7b-9ea6-598f41cdefb9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Access Stock
+
+Preconditions
+1. User has an active internet connection
+
+2. User has the necessary permissions
+
+Steps
+Tap on Stock in the Tab Bar
+
+Result Expected
+1. Actions is displaying a list of categories :
+	Record Stock 
+	Received Stock 
+	Add Supplier
+2. Manage is displaying a list of categories :
+	Manage Stock 
+	Past Stock Takes
+	Manage Suppliers
+	Manage - Supplier Invoices</description>
+   <name>WS-Stock Tab</name>
+   <tag>Stock</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d041b6cf-7033-4bb0-b253-2842e41e62fc</testCaseGuid>
+</TestCaseEntity>

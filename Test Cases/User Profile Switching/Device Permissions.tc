@@ -4,5 +4,6 @@
    <name>Device Permissions</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8cc46ce7-c08c-4911-aa96-1fa1fdf24325</testCaseGuid>
 </TestCaseEntity>

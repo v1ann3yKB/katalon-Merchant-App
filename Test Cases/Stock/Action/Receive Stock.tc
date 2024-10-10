@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Preconditions
+The user is on the Stock tab in the Management workspace
+The user has at least one saved supplier
+The user has at least one saved supplier invoice</description>
+   <name>Receive Stock</name>
+   <tag>Receive Stock</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96f934e1-5c85-4369-8a71-abaabfcda7ab</testCaseGuid>
+</TestCaseEntity>

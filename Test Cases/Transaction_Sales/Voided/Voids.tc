@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C-260 · Access voided transactions
+
+Preconditions
+1. User has internet access
+2. User has opened the transaction history
+
+Steps
+Tap on Voided at the top of the page
+
+Result expected
+All voided transactions are displayed</description>
+   <name>Voids</name>
+   <tag>Voids</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de674d63-29f7-4a04-ab56-134208cc41d0</testCaseGuid>
+</TestCaseEntity>

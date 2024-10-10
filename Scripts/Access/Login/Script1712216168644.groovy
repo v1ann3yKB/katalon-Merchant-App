@@ -17,23 +17,50 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/vb/Desktop/WorkFolder/QA Testing/Project Testing/Mobile/android/APKs/app-dev-release/app-dev-release.apk', 
-    true)
+//Mobile.startApplication('/Users/vb/Desktop/WorkFolder/QA Testing/Project Testing/Mobile/android/APKs/app-dev-release/app-dev-release.apk', 
+//    true)
+//
+//'Tap On Log in Button'
+//Mobile.tap(findTestObject('Access/Login/android.widget.Button'), 0)
+//
+//'Set Email for Log In'
+//Mobile.setText(findTestObject('Access/Login/android.widget.EditText - Username (Email Address)'), 'demo@littlefishapp.com', 
+//    0)
+//
+//'Set Password for Log in'
+//Mobile.setText(findTestObject('Access/Login/android.widget.EditText - Password'), 'Password123!', 0)
+//
+//'Tap On Login Button'
+//Mobile.tap(findTestObject('Access/Login/android.widget.Button (1)'), 0)
+//
+//Mobile.delay(10)
+//
+//Mobile.closeApplication()
 
-'Tap On Log in Button'
-Mobile.tap(findTestObject('Access/Login/android.widget.Button'), 0)
+//Mobile.startApplication('/Users/vb/Desktop/WorkFolder/littlefish_pos_ui/build/app/outputs/apk/lfLfposDev/debug/app-lf-lfpos-dev-debug.apk',
+//	true)
+
+Mobile.delay(2)
+
+'Tap on the login button from first screen '
+Mobile.tap(findTestObject('Stock/android.widget.Button'), 0)
+
+Mobile.delay(3)
+
+Mobile.tap(findTestObject('Stock/android.widget.EditText (1)'), 0)
 
 'Set Email for Log In'
-Mobile.setText(findTestObject('Access/Login/android.widget.EditText - Username (Email Address)'), 'demo@littlefishapp.com', 
-    0)
+Mobile.setText(findTestObject('Stock/android.widget.EditText (2)'), 'demo@littlefishapp.com', 0)
+
+Mobile.delay(3)
+
+Mobile.tap(findTestObject('Stock/android.widget.EditText(Password)'), 0)
 
 'Set Password for Log in'
-Mobile.setText(findTestObject('Access/Login/android.widget.EditText - Password'), 'Password123!', 0)
+Mobile.setText(findTestObject('Stock/android.widget.EditText(Password)'), 'Password123!', 0)
 
-'Tap On Login Button'
-Mobile.tap(findTestObject('Access/Login/android.widget.Button (1)'), 0)
+Mobile.delay(3)
 
-Mobile.delay(10)
-
-Mobile.closeApplication()
+'Tap on login'
+Mobile.tap(findTestObject('Stock/android.widget.Button(Login)'), 0)
 

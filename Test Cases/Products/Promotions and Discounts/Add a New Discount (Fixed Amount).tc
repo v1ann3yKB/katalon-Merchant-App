@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a New Discount (Fixed Amount)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>906c4e40-3b6c-4591-acb0-566507c51574</testCaseGuid>
+</TestCaseEntity>
