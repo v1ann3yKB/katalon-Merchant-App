@@ -58,30 +58,32 @@ import org.openqa.selenium.Keys as Keys
 
 //'Tap on profile switching icon'
 //Mobile.tap(findTestObject('Products/New fix/android.widget.ImageView(PFLsw)'), 0)
-
-Mobile.delay(3)
-
+//
+//Mobile.delay(3)
+//
 //Mobile.tap(findTestObject('User Profile Switching/Change Password/android.view.View'), 0)
 //
 //Mobile.delay(5)
-'tap on change password'
-Mobile.tap(findTestObject('User Profile Switching/Change Password/android.view.View (1)'), 0)
-
-Mobile.delay(3)
-
-'Tap on Ok'
-Mobile.tap(findTestObject('User Profile Switching/Change Password/android.widget.Button (2)'), 0)
-
-Mobile.delay(3)
-
+//'tap on change password'
+//Mobile.tap(findTestObject('User Profile Switching/Change Password/android.view.View (1)'), 0)
+//
+//Mobile.delay(3)
+//
+//'Tap on Ok'
+//Mobile.tap(findTestObject('User Profile Switching/Change Password/android.widget.Button (2)'), 0)
+//
+//Mobile.delay(3)
+//
 //'Tap on Back button'
 //Mobile.tap(findTestObject('User Profile Switching/android.widget.Button(device_Permissions_Back_BTN)'), 0)
 //
 //Mobile.delay(2)
-
+//
 //'Tap on logout'
 //Mobile.tap(findTestObject('User Profile Switching/Change Password/android.view.View (2)'), 0)
 //
 //Mobile.delay(5)
-
+//
 //Mobile.closeApplication()
+
+

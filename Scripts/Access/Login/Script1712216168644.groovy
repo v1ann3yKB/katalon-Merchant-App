@@ -64,3 +64,5 @@ Mobile.delay(3)
 'Tap on login'
 Mobile.tap(findTestObject('Stock/android.widget.Button(Login)'), 0)
 
+Mobile.delay(5)
+

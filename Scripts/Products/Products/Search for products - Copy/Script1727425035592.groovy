@@ -55,7 +55,8 @@ Mobile.tap(findTestObject('Stock/StockPageOBJ/android.view.View(ManageWorkSpace)
 Mobile.delay(5)
 
 'Tap on Products'
-Mobile.tap(findTestObject('Manage Settings/android.view.View(Manage_Products)'), 0)
+//Mobile.tap(findTestObject('Manage Settings/android.view.View(Manage_Products)'), 0)
+Mobile.tap(findTestObject('Products/Products Fix/android.view.View(MW-ProductsTab-Products)'), 0)
 
 Mobile.delay(3)
 

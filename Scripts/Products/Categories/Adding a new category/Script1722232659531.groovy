@@ -56,12 +56,12 @@ Mobile.tap(findTestObject('Stock/StockPageOBJ/android.view.View(ManageWorkSpace)
 Mobile.delay(5)
 
 'Tap on manage Categories'
-Mobile.tap(findTestObject('Products/Category/android.view.View(Products-Categories)'), 0)
+Mobile.tap(findTestObject('Products/Category/android.view.View(WS_Products_Manage_Categories_Tab)'), 0)
 
 Mobile.delay(3)
 
 'Tap on Add Category'
-Mobile.tap(findTestObject('Products/Category/android.widget.Button(AddCategoryBTN)'), 0)
+Mobile.tap(findTestObject('Products/Category/android.widget.Button(WS_Products_Manage_Category_Add_Category_BTN)'), 0)
 
 Mobile.delay(3)
 

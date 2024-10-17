@@ -17,45 +17,48 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Mobile.startApplication('/Users/vb/Desktop/WorkFolder/littlefish_pos_ui/build/app/outputs/apk/lfLfposDev/debug/app-lf-lfpos-dev-debug.apk', 
-//    true)
-//
-//Mobile.delay(2)
-//
-//'Tap on the login button from first screen '
-//Mobile.tap(findTestObject('Stock/android.widget.Button'), 0)
-//
-//Mobile.delay(3)
-//
-//Mobile.tap(findTestObject('Stock/android.widget.EditText (1)'), 0)
-//
-//Mobile.setText(findTestObject('Products/New fix/android.widget.EditText'), 'demo@littlefishapp.com', 0)
-//
-//Mobile.delay(3)
-//
-//Mobile.tap(findTestObject('Stock/android.widget.EditText(Password)'), 0)
-//
-//Mobile.setText(findTestObject('Stock/android.widget.EditText(Password)'), 'Password123!', 0)
-//
-//Mobile.delay(3)
-//
-//'Tap on login'
-//Mobile.tap(findTestObject('Stock/android.widget.Button(Login)'), 0)
-//
-//Mobile.delay(15)
-//
-//'Tap on profile switching icon'
-//Mobile.tap(findTestObject('Products/New fix/android.widget.ImageView(PFLsw)'), 0)
-//
-//Mobile.delay(5)
-//
-//'Tap on manage workSpace'
-//Mobile.tap(findTestObject('Stock/StockPageOBJ/android.view.View(ManageWorkSpace)'), 0)
-//
-//Mobile.delay(5)
-//
+Mobile.startApplication('/Users/vb/Desktop/WorkFolder/littlefish_pos_ui/build/app/outputs/apk/lfLfposDev/debug/app-lf-lfpos-dev-debug.apk', 
+    true)
+
+Mobile.delay(2)
+
+'Tap on the login button from first screen '
+Mobile.tap(findTestObject('Stock/android.widget.Button'), 0)
+
+Mobile.delay(3)
+
+Mobile.tap(findTestObject('Stock/android.widget.EditText (1)'), 0)
+
+Mobile.setText(findTestObject('Products/New fix/android.widget.EditText'), 'demo@littlefishapp.com', 0)
+
+Mobile.delay(3)
+
+Mobile.tap(findTestObject('Stock/android.widget.EditText(Password)'), 0)
+
+Mobile.setText(findTestObject('Stock/android.widget.EditText(Password)'), 'Password123!', 0)
+
+Mobile.delay(3)
+
+'Tap on login'
+Mobile.tap(findTestObject('Stock/android.widget.Button(Login)'), 0)
+
+Mobile.delay(15)
+
+'Tap on profile switching icon'
+Mobile.tap(findTestObject('Products/New fix/android.widget.ImageView(PFLsw)'), 0)
+
+Mobile.delay(5)
+
+'Tap on manage workSpace'
+Mobile.tap(findTestObject('Stock/StockPageOBJ/android.view.View(ManageWorkSpace)'), 0)
+
+Mobile.delay(5)
+
 //'Tap on Products'
 //Mobile.tap(findTestObject('Manage Settings/android.view.View(Manage_Products)'), 0)
+
+'Tap on Products'
+Mobile.tap(findTestObject('Products/Products Fix/android.view.View(MW-ProductsTab-Products)'), 0)
 
 Mobile.delay(5)
 
